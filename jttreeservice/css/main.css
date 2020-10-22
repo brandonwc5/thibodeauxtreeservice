@@ -533,6 +533,20 @@ footer em {
   }
 }
 
+@media (min-width: 1200px) {
+  .logo_container
+  {
+    max-width: 33%;
+  }
+}
+
+@media (max-width: 776px) {
+  .logo
+  {
+    max-width: 68%;
+  }
+}
+
 /* LIGHT BOX */
 
 body:after {
@@ -751,6 +765,7 @@ body.lb-disable-scrolling {
 
 /* Vet owned */
 .vet-owned{
+  z-index: 99;
   position: fixed;
   top: 0;
   left: 0;
@@ -760,4 +775,14 @@ body.lb-disable-scrolling {
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: left center;
+}
+
+/* Logo */
+.logo{
+  width: 100%;
+  background-image: url(../img/logo.png);
+  background-size: 100%;
+  background-position: center;
+  height: 31em;
+  background-repeat: no-repeat;
 }
