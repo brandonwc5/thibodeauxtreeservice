@@ -136,7 +136,7 @@ a:hover { color: #FF0; }
 
 
 .baner-content {
-  padding-top: 30vh;
+  padding-top: 15vh;
   text-align: center;
   background-image: url(../img/1st-section.jpg);
 }
@@ -536,7 +536,7 @@ footer em {
 @media (min-width: 1200px) {
   .logo_container
   {
-    max-width: 33%;
+    max-width: 50%;
   }
 }
 
@@ -780,9 +780,41 @@ body.lb-disable-scrolling {
 /* Logo */
 .logo{
   width: 100%;
-  background-image: url(../img/logo.png);
+  background-image: url(../img/logo-removebg-preview.png);
   background-size: 100%;
   background-position: center;
   height: 31em;
   background-repeat: no-repeat;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 40px;
+}
+
+.gfont{
+  display: grid;
+  font-size: 55px;
+  font-family: Noto Serif;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  color: #f3f948;
+  justify-items: left;
+  padding-top: 6%;
+  text-shadow: 2px 2px black;
+
+}
+
+
+.gfont2{
+  display: grid;
+  font-size: 55px;
+  font-family: Noto Serif;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  color: #f3f948;
+  justify-items: left;
+  padding-top: 6%;
+  text-shadow: 2px 2px black;
 }

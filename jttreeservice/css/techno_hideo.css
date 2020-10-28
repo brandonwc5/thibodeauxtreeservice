@@ -1,0 +1,25 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'techno_hideo';
+  src: url('../fonts/techno_hideo.ttf');
+  src: url('../fonts/techno_hideo_bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.th {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-shadow: 4px 4px aqua;
+  /* display: inline-block; */
+  font: normal normal normal 14px/1 techno_hideo;
+  font-size: 175px;
+  text-rendering: auto;
+  justify-items: right;
+}
