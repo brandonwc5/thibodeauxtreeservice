@@ -524,7 +524,10 @@ footer em {
     color: #fff;
     margin-bottom: 30px;
   }
-
+  .logo{
+    max-width: 100%;
+    background-size: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -543,7 +546,7 @@ footer em {
 @media (max-width: 776px) {
   .logo
   {
-    max-width: 68%;
+    max-width: 100%;
   }
 }
 
@@ -781,8 +784,8 @@ body.lb-disable-scrolling {
 .logo{
   width: 100%;
   background-image: url(../img/logo.png);
-  background-size: 100%;
+  background-size: 75%;
   background-position: center;
-  height: 31em;
+  height: 15em;
   background-repeat: no-repeat;
 }
