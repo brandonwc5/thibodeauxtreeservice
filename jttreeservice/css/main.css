@@ -543,12 +543,6 @@ footer em {
   }
 }
 
-@media (max-width: 776px) {
-  .logo
-  {
-    max-width: 100%;
-  }
-}
 
 /* LIGHT BOX */
 
@@ -788,4 +782,18 @@ body.lb-disable-scrolling {
   background-position: center;
   height: 15em;
   background-repeat: no-repeat;
+}
+
+
+@media (max-width: 776px) {
+  .logo
+  {
+    background-size: 100%;
+    max-width: 100%;
+
+  }
+  .vet-owned{
+    width: 35%;
+    min-height: 17vh;
+  }
 }
